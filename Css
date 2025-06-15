@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    /* isso para começa o css é enssecial */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    padding-top: 20px;
+    /*Adiciona espaço de 20 pixels acima do conteúdo da página (um respiro no topo).*/
+    /**/
+    padding-right: 100px;
+    /*Adiciona 100 pixels de espaço na direita do conteúdo, afastando o texto da borda direita.*/
+    padding-left: 100px;
+    /*Adiciona 100 pixels de espaço na esquerda, deixando o conteúdo mais centralizado ou “solto”*/
+
+}
+
+.caixa-de-texto {
+    width: 800px;
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+button {
+    background: green;
+    /* muda a cor do fundo */
+    color: white;
+    /* muda a cor da lentra*/
+    border-radius: 40px;
+    /*a redonda a borda*/
+    border: none;
+    /* tira a cor da borta que é preta*/
+    padding: 15px;
+    /*tamanho do botão*/
+    font-size: 20px;
+    /*tamanho da fonte da letra*/
+    margin-top: 50px;
+    transition: 0, 9s
+        /* tempo de transisão*/
+    ;
+    cursor: pointer;
+    /* muda os ponterios*/
+}
+
+
+button:hover {
+    background: rgb(1, 53, 1);
+
+
+}
+
+span {
+    color: rgb(12, 97, 12);
+    font-size: 70px;
+    font-weight: 900;
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* deixa coisa no centro*/
+}
+
+
+
+.Caixa-de-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+
+
+.Conteudo {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+.Joelheiraverde {
+    width: 600px;
+    margin-right: -100px;
+}
+
+.botao-menu {
+    width: 120px;
+    transition: 900ms;
+    cursor: pointer;
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(700px at right 800px);
+    z-index: -1;
+}
