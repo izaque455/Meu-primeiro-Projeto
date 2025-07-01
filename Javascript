@@ -1,8 +1,0 @@
-// HTML = document
-// QuerySeclector -> Selecionar ou Puxar o que eu pedir
-let circulo = document.querySelector(".circulo");
-
-
-function trocaracor() {
-    circulo.style.background = "blue";
-}
